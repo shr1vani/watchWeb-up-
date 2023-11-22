@@ -196,7 +196,7 @@
 
 .logo {
     flex-wrap: wrap;
-    height: 200px;
+    height: 400px;
     display: flex;
     justify-content: space-around;
 
@@ -234,6 +234,7 @@
 .support_features{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     
 }
 .items_of_support {
@@ -241,11 +242,24 @@
     justify-content: space-around;
     align-items: center;
     border:1px solid black;
-    width: 400px;
+    width: 350px;
     height: 200px;
-    margin: 0 10px;
-    background-color: #2863e2;
+    margin: 1px 10px;
+    background-color: rgb(177 142 142);
     border-radius: 25px;
+}
+.items_of_support:hover{
+      box-shadow: 5px 5px gray;
+
+  }
+  #forgot{
+    margin-left:260px ;
+    margin-right: 10px;
+    
+  }
+  #bill{
+    margin-left:10px ;
+    margin-right: 310px;
   }
 .items_of_support img{
     display: block;

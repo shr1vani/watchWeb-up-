@@ -14,7 +14,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@300&display=swap"
         rel="stylesheet">
     <style>
-        img{width:100%}
+        form{
+            display: flex;
+           
+            
+            justify-content: center;
+            align-items: center;
+        }
+        .searchbox{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+            width: 400px;
+            border: 1px solid;
+            border-radius: 15px;
+        }
+         h1{
+            font-size:40px; 
+        }
+        input{
+            height:40px;
+        }
         h1{text-align: center;}
     </style>
 </head>
@@ -35,48 +56,55 @@
         watchWeb Support
     </h1>
     <div class="logo">
-        <div class="company" id="logo1">  
+        <div class="support_company" id="logo1">  
             <img src="noise.png" alt="">
         </div>
 
-        <div class="company" id="logo2">
+        <div class="support_company" id="logo2">
             <img src="https://marksmendaily.com/wp-content/uploads/2023/02/Abhishek-MPL-3.png" alt="">
         </div>
 
-        <div class="company" id="logo3">
+        <div class="support_company" id="logo3">
             <img src="https://download.logo.wine/logo/Redmi/Redmi-Logo.wine.png" alt="">
         </div>
 
-        <div class="company" id="logo4">
+        <div class="support_company" id="logo4">
             <img src="casio.png" alt="">
         </div>
-
-        
-
+        <!-- second row -->
     </div>
-                <div class="logo" id="logo2">
-                    <div class="company" id="logo5">
+                <div class="logo" >
+                    <div class="support_company" id="logo5">
                         <img src="TITAN.png" alt="">
                     </div>
             
-                    <div class="company" id="logo6">
+                    <div class="support_company" id="logo6">
                         <img src="fastrack.png" alt="">
                     </div>
             
-                    <div class="company" id="logo7">
+                    <div class="support_company" id="logo7">
                         <img src="apple.png" alt="">
                     </div>
                 </div>
         <div class="support_features">
-                    <div class="items_of_support">
-                        <p>forgot id</p>
+                    <div class="items_of_support" id="forgot">
+                        <img src="https://support.apple.com/content/dam/edam/applecare/images/en_US/psp_navicons/tile-topic-password_2x.svg" alt="logo">
+                        <p><a href="https://iforgot.apple.com/password/verify/appleid?r=1&language=IN-EN">Forgotten id or Password</a></p>
                     </div>
-                    <div class="items_of_support">
-                            <p>Repair options</p>
+                    <div class="items_of_support" id="repair">
+                        <img src="https://support.apple.com/content/dam/edam/applecare/images/en_US/psp_navicons/tile-topic-repair_2x.svg" alt="Repair">
+                        <p><a href="https://support.apple.com/en-in/repair">Repair options</a></p>
                     </div>
-                    <div class="items_of_support">
-                            <p>Billing and subscriptions</p>
+                    <div class="items_of_support" id="bill">
+                        <img src="https://support.apple.com/content/dam/edam/applecare/images/en_US/psp_navicons/tile-topic-billing_2x.svg" alt="">
+                            <p><a href="https://support.apple.com/en-in/billing">Billing and subscriptions</a></p>
                     </div>
                 </div>
+                <h1>Search for more topics</h1>
+                <form action="">
+                    <div class="searchbox">
+                    <input type="search" name="help" id="" placeholder="   Search for help">
+                    <button>search</button></div>
+                </form>
 </body>
 </html>
